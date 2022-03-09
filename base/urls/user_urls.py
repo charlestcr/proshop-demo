@@ -16,6 +16,6 @@ urlpatterns =[
 
     path('',views.getUsers,name="users"),
     
-   
+    path('<str:pk>/', views.getUserById, name='user'),
 
 ]
