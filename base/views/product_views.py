@@ -95,3 +95,5 @@ def uploadImage(request):
     product.save()
 
     return Response('Image was uploaded')
+
+
